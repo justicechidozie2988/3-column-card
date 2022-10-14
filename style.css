@@ -30,7 +30,7 @@ article
     padding: 4em 2em;
     min-height: 50vh;
 }
-.yellow-bg { background-color: hsl(31, 77%, 52%);}
+.orange-bg { background-color: hsl(31, 77%, 52%);}
 .light-blue-bg { background-color: hsl(184, 100%, 22%);}
 .dark-green-bg{ background-color: hsl(179, 100%, 13%);}
 
@@ -50,14 +50,23 @@ article
 }
 button 
 {
-    color: hsl(0, 0%, 95%);
     font-size: 0.8em;
+    font-weight: 700;
     border: 2px solid hsl(0, 0%, 95%);
-    background-color: transparent;
+    background-color: hsl(0, 0%, 95%);
     border-radius: 25px;
     padding: 1em 2em;
     cursor: pointer;
+    transition: 0.2s;
 }
+button:hover
+{
+    color:  hsl(0, 0%, 95%);
+    background-color: transparent;
+}
+.orange-btn { color: hsl(31, 77%, 52%);}
+.light-blue-btn {color: hsl(184, 100%, 22%);}
+.dark-green-btn {color:  hsl(179, 100%, 13%);}
 
 .attribution { font-size: 11px; text-align: center; color: hsl(179, 100%, 13%);}
 .attribution a { color: hsl(228, 45%, 44%); }
