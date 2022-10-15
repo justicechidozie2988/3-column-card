@@ -48,7 +48,7 @@ article
     padding-bottom: 5em;
     max-width: 80%;
 }
-button 
+.btn
 {
     font-size: 0.8em;
     font-weight: 700;
@@ -58,8 +58,9 @@ button
     padding: 1em 2em;
     cursor: pointer;
     transition: 0.2s;
+    text-decoration: none;
 }
-button:hover
+.btn:hover
 {
     color:  hsl(0, 0%, 95%);
     background-color: transparent;
@@ -69,4 +70,4 @@ button:hover
 .dark-green-btn {color:  hsl(179, 100%, 13%);}
 
 .attribution { font-size: 11px; text-align: center; color: hsl(179, 100%, 13%);}
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(228, 45%, 44%); text-decoration: none;}
