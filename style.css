@@ -48,7 +48,7 @@ body{
     background-color:  hsl(184, 100%, 22%);
 }
 h1{
-    font-size: 15px;
+    font-size: 2rem;
     color: hsl(0, 0%, 95%);
     margin-inline: 1.5rem;
     margin-block-start: 1.5rem;
